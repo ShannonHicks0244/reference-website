@@ -109,6 +109,11 @@
     - Descibes images, so they are accesible to people with visual impairments. Also useful for if the image does not download. 
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
+- CSS stands for Cascading Style Sheets. It controls the appearance of HTML pages. 
+- To implement CSS to an html file, first you need to create a css file (e.g. style.css) and place it in a css folder
+- Then you need to link the css file to the html file. It is attached inside the <head> of the html using <link>, which looks like the following:
+` <link rel="stylesheet" href="/css/style.css"> `
+
 9. What is the difference between CSS property and value (write explanation and an example code)
 10. Why do we use border-box property in CSS?
 11. Explain different type of ways we can add spacing to an element
