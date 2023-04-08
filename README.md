@@ -132,6 +132,11 @@
 - The main difference is that padding adds spacing inside of the box, whereas margin adds spacing outside of the box. 
 
 13. What are different types of display properties?
+- inline: elements are on the same line, but height and width properties cannot be changed 
+- block: forces element to be on its own line, regardless of width
+- inline-block: element is like an inline element but height and width can be changed
+- none: completely removes the element
+
 14. Write a brief explanation of flexbox property
 15. What are different types of flexbox properties and what is the major difference between them?
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
