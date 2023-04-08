@@ -143,6 +143,13 @@
 ` display: flex;`
 
 15. What are different types of flexbox properties and what is the major difference between them?
+- There is justify-content, align-items, and align-content
+- justify-content works on the main axis, while align-items works on the cross axis. Align content aligns a flex container within when there is extra room on the cross-axis. 
+These properties have the following values:
+justify-content: flex-end, center, space-between, space-around, space-evenly
+align-items: stretch, flex-start, flex-end, center
+align-content: normal, flex-start, flex-end, center, space-between, space-around, space-evenly, stretch
+
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
 18. What is CSS grid property?
