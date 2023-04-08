@@ -115,6 +115,11 @@
 ` <link rel="stylesheet" href="/css/style.css"> `
 
 9. What is the difference between CSS property and value (write explanation and an example code)
+- a css property is the type of change you want to make or design you want to add, such as colour, width, or border
+- a css value is assigned to a css property. For example, if the property is colour, then the value is a specific colour, like red or black. 
+- the change the appearance of a header for example, you could type, 
+` h1 {color: black;} `
+
 10. Why do we use border-box property in CSS?
 11. Explain different type of ways we can add spacing to an element
 12. What is the main difference between margin and padding?
