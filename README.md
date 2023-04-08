@@ -97,11 +97,16 @@
     small
     - used for small print or side comments 
     - makes text one font size smaller by default 
+
 7. Explain why accessibility is important and also explain the accessibility properties like:
+- Accessibility is important when desiging a website because people use the web in different ways. Without considering accesiblity many peole with disabilities may not be able to access the info on your website or may have a bad user experience. It also is not very difficult to make a website accessible, and many accesibility features beneift everyone. 
 
     landmark roles
+    - people using screen readers can jump directly to particular sections with landmark roles. There are <header role="banner">, <nav role="naviagtion">, <main role="main">, <aside role="complimentary">, and <footer role="contentinfo">
     aria labels
+    - provided a label or description that only screen readers will read. For example, for a link, says where clicking the link will take you.
     image alternative texts
+    - Descibes images, so they are accesible to people with visual impairments. Also useful for if the image does not download. 
 
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
 9. What is the difference between CSS property and value (write explanation and an example code)
