@@ -121,8 +121,16 @@
 ` h1 {color: black;} `
 
 10. Why do we use border-box property in CSS?
+- A border-box property may be used because it is better for more flexible layouts.
+- Its padding and border are inside of the width, instead of the default box model, where the padding and border add onto the box's width. A border-box's total width is the same as the value width. 
+
 11. Explain different type of ways we can add spacing to an element
+- the padding could be increased, pushing content away from the border
+- the margin could be increased , pushing other boxes away from the box
+
 12. What is the main difference between margin and padding?
+- The main difference is that padding adds spacing inside of the box, whereas margin adds spacing outside of the box. 
+
 13. What are different types of display properties?
 14. Write a brief explanation of flexbox property
 15. What are different types of flexbox properties and what is the major difference between them?
