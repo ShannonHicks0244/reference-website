@@ -138,6 +138,10 @@
 - none: completely removes the element
 
 14. Write a brief explanation of flexbox property
+- the flexbox property controls the flow and alignment of elements. It allows for more complicated layouts. 
+- there is a parent element (the flex container) the properties are applied to, and child elements (flex items) that are affected by them 
+` display: flex;`
+
 15. What are different types of flexbox properties and what is the major difference between them?
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
