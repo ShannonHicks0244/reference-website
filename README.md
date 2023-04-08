@@ -59,17 +59,41 @@
     small
     - tag used to make small text such as copyrights or legal text - might be used in the footer for example
 6. Explain block Elements and also explain the list of block elements and why they are used from below:
+- Block level elements may only be used inside of the body element
+- they are different from inline elements - starts on a new line, and automatically takes up the horizontal space of its parent container and the vertical space equal to its content's height 
+- <p> and <div> are block elements for example
 
     html
+    - all of the webpage html elements and content is inside this tag 
     head
+    - Includes non-visible meta data info as well at the title of the webpage that comes up in the browser. 
     body
+    - contains the actual content of the page, is placed below the head, inside html
     header
+    - the introductory content you see at the top of a webpage, such as the company name or logo, and the navigation. 
+    - headers are also within sections or articles, and include the title, subheading, or author, etc. 
     nav
+    - used to navigate to below sections, usually inside header at the top of page 
     main
+    - contains the main content of the page, and is only used once per page
     section
+    - groups related pieces of content inside a main element 
     article
+    - tag used to indicate a self-contained piece of content, such as a single entry in a blog or magazine
+    - there could be multiple articles on a page
+    - inside a section, inside of main
     div
+    - div is a block-level element used to group content together 
+    - does not affect content or layout until styled in CSS later
     aside
+    - content indirectly related to the primary content 
+    - may appear as a sidebar or call-out box
     footer
+    - placed at the end of the webpage
+    - includes information such as contact info, terms and services, copyright info, or other links. 
     span
+    - inline element
+    - when there is no other appropriate semantic element, used as an inline container that groups elements
     small
+    - used for small print or side comments 
+    - makes text one font size smaller by default 
