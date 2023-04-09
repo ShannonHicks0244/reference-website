@@ -16,18 +16,18 @@
 4. Proper syntax for HTML tags
 - The specific syntax should be something like this;
 `<h1> This is a heading </h1>`
-- the open tag is <h1>, the close tag is </h1>, with the content in between them. 
+- the open tag is `<h1>`, the close tag is `</h1>`, with the content in between them. 
 5. Explain or demonstrate commonly used html tags/elements:
 
     headings: h1-h6
-    - These tags mark headings in order of their importance, with <h1> being the most important, and <h6> the least important. 
+    - These tags mark headings in order of their importance, with `<h1>` being the most important, and `<h6>` the least important. 
     p
     - This tag marks a paragraph of text, which operates as a block-level element that starts on a new line. 
     lists: ul, ol, dl
-    - <ul> is the tag for an unordered list
-    - <ol> is the tag for an ordered list (such as 1,2,3 or a,b,c)
-    - within <ul> and <ol> tags are <li>s which are the individual list items 
-    - <dl> is the tag for a descriptive list, within which there are <dt> (the term or name), and <dd> (the description of the term)
+    - `<ul>` is the tag for an unordered list
+    - `<ol>` is the tag for an ordered list (such as 1,2,3 or a,b,c)
+    - within `<ul>` and `<ol>` tags are `<li>`s which are the individual list items 
+    - `<dl>` is the tag for a descriptive list, within which there are `<dt>` (the term or name), and `<dd>` (the description of the term)
     a
     - anchor, is used for adding a hyperlink and link text - `<a href="hyperlink">Link Text</a>`
     - The open tag for a shows where the link should start, and the closing a tag shows where the link ends. 
@@ -35,9 +35,9 @@
     - To link images in the HTML to be visible on the website.
     - Looks like, `<img src="image location" alt="alternative content"/>`
     figure (img & figcaption)
-    - <figure> is the parent tag used for images, illustrations, etc. that are self-contained 
-    - <figcaption> describes the contant of the <figure> tag
-    - inside the <img> tag is where the image's source location goes 
+    - `<figure>` is the parent tag used for images, illustrations, etc. that are self-contained 
+    - `<figcaption>` describes the contant of the `<figure>` tag
+    - inside the `<img>` tag is where the image's source location goes 
     `<figure>`
         `<img src="image source" alt="alt text">`
         `<figcaption> Image description </figcaption>`
@@ -61,7 +61,7 @@
 6. Explain block Elements and also explain the list of block elements and why they are used from below:
 - Block level elements may only be used inside of the body element
 - they are different from inline elements - starts on a new line, and automatically takes up the horizontal space of its parent container and the vertical space equal to its content's height 
-- <p> and <div> are block elements for example
+- `<p>` and `<div>` are block elements for example
 
     html
     - all of the webpage html elements and content is inside this tag 
@@ -111,7 +111,7 @@
 8. What is CSS and how can we implement CSS to our html file (write a proper explanation with the code required to attach a CSS file inside html file)
 - CSS stands for Cascading Style Sheets. It controls the appearance of HTML pages. 
 - To implement CSS to an html file, first you need to create a css file (e.g. style.css) and place it in a css folder
-- Then you need to link the css file to the html file. It is attached inside the <head> of the html using <link>, which looks like the following:
+- Then you need to link the css file to the html file. It is attached inside the `<head>` of the html using `<link>`, which looks like the following:
 ` <link rel="stylesheet" href="/css/style.css"> `
 
 9. What is the difference between CSS property and value (write explanation and an example code)
