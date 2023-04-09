@@ -191,3 +191,6 @@ The main difference is that display: grid involves columns and rows at the same 
   `grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));`
 
 25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
+- First go to fonts.google.com and select the fonts and styles you want to use, probably 2 or 3 styles such as regular, italic, and bold. 
+- Copy the provided link for use on the web, and paste the link inside the head of the html file. 
+- Copy the CSS rules to specify families provided on the website, and paste into style, and apply it to the body of the page.
