@@ -164,7 +164,13 @@ Example of selecting a child in a parent and applying a child sub-property
 `.section p {flex-grow: 1;}`
 
 18. What is CSS grid property?
+- It adds a two-dimensional grid to the CSS that can be used to layout a page. Horizontal and vertical lines define columns and rows.  
 19. Write the parent and two sub-properties used for CSS Grid Property.
+- To make a grid container use the parent property,
+`display:grid` or `display: inline-grid` on an element. It then makes all the children grid items. 
+- The two sub-properties that can be used are
+`grid-template-rows` and `grid-template-columns`
+
 20. What is the difference between display: flex and display: grid?
 21. What sub-property we use to divide elements in CSS Grid properties?
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
