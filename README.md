@@ -153,12 +153,15 @@ align-content: normal, flex-start, flex-end, center, space-between, space-around
 16. Explain with code the use of flexbox property on a parent element and also explain the sub properties you might need for the flexbox property
 - flexbox properties applied to the parent element (flex container) are applied to all of the children (flex items) as well. 
 - there are many sub-properties you may need, including: align-content (flex-start, flex-end, center, space-between, space-around, and stretch), align-items (flex-start, flex-end, center, stretch, baseline), justify-content (flex-start, flex-end, center, space-between, space-around, sapce-evenly), flex-wrap (nowrap, wrap, wrap-reverse), and flex-direction (row, row-reverse, column, column-reverse)
-- to enable/define a flex container, use 
+- to enable/define a flex container, select the parent element in CSS, and use - 
 `.container {display:flex;}`
-- this will apply it to all of the children
+- this will apply it to all of the children, making them flex items 
 
 17. Write a code example on how you will use a flexbox property on a parent element with sub properties.
-
+Example of flex box code applied to parent (section)
+`.section {width: 50%; display: flex; flex-direction: column;}`
+Example of selecting a child in a parent and applying a child sub-property
+`.section p {flex-grow: 1;}`
 
 18. What is CSS grid property?
 19. Write the parent and two sub-properties used for CSS Grid Property.
