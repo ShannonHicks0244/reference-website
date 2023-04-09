@@ -172,8 +172,22 @@ Example of selecting a child in a parent and applying a child sub-property
 `grid-template-rows` and `grid-template-columns`
 
 20. What is the difference between display: flex and display: grid?
-21. What sub-property we use to divide elements in CSS Grid properties?
+The main difference is that display: grid involves columns and rows at the same time (2 dimensional), while display: flex only works as a one dimensional layout, a row or a column. 
+
+***21. What sub-property we use to divide elements in CSS Grid properties?
+- You can use grid-template-areas to define each child element. Each area gets named. 
+`grid-template-areas: "banner banner banner" "col1 col2 col3";`
+
 22. What unit we use to fractionally divide the element width in CSS Grid property and what are others unit we can use alternatively? (Write a code example)
-23. What is the area property in CSS grid we use for the child elements?
+- The fr unit represenets a fraction of the total space in a container. For example, 1fr 1fr 1fr, each represents a third. 
+- Absolute sizes can also be used, like pixels (px). Rem, em, and % can also be used. You can use both at the same time also.
+`.section {display: grid; grid-template-columns: 500px 1fr 2fr;}`
+
+***23. What is the area property in CSS grid we use for the child elements?
+- `grid-area` specifies the size and location of grid items / child elements
+
 24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
+- You can use `auto-fit`, which will fit whatever number of columns into the available space, expanding them to fill the space.
+  `grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));`
+
 25. Explain the steps to add google fonts to your CSS file and how will you link it to the html file.
