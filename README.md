@@ -174,7 +174,7 @@ Example of selecting a child in a parent and applying a child sub-property
 20. What is the difference between display: flex and display: grid?
 The main difference is that display: grid involves columns and rows at the same time (2 dimensional), while display: flex only works as a one dimensional layout, a row or a column. 
 
-***21. What sub-property we use to divide elements in CSS Grid properties?
+21. What sub-property we use to divide elements in CSS Grid properties?
 - You can use grid-template-areas to define each child element. Each area gets named. 
 `grid-template-areas: "banner banner banner" "col1 col2 col3";`
 
@@ -183,7 +183,7 @@ The main difference is that display: grid involves columns and rows at the same 
 - Absolute sizes can also be used, like pixels (px). Rem, em, and % can also be used. You can use both at the same time also.
 `.section {display: grid; grid-template-columns: 500px 1fr 2fr;}`
 
-***23. What is the area property in CSS grid we use for the child elements?
+23. What is the area property in CSS grid we use for the child elements?
 - `grid-area` specifies the size and location of grid items / child elements
 
 24. Which sub-property of display grid you can use to prevent displaying empty columns. Write a code example of that property.
